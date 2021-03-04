@@ -1,0 +1,121 @@
+.top{
+    background-color: white;
+}
+.top img{
+    display:block;
+    margin:0 auto;
+    background-color: white;
+}
+body{
+    background-color:white;
+}
+h1{
+    background-color:#2E282A;
+    display: inline-block;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Roboto Slab',serif;
+    align-items: center;
+    color:aliceblue;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    height: 125px;
+}
+.navigation{
+    justify-content: space-around;
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Roboto Slab',serif;
+    color:#2a9d8f;
+    width:100%;
+    align-items: center;
+}
+.navigation li{
+    text-align: center;
+    font-family:'Roboto Slab';
+    display: inline;
+    padding-right: 2.22rem;
+    margin:30px 20px 30px 20px;
+}
+.navigation li a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    text-shadow: black;
+    font-family:'Roboto Slab',serif;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+.main1{
+    display:flex;
+    justify-content: space-around;
+    float: left;
+    bottom: 50px;
+}
+.main1 img{
+    margin:10px 20px 10px 20px;
+    top:25%;
+    float: left;
+    bottom:40%;
+}
+.main1 h2{
+    display: flex;
+    font-size: 80px;
+}
+.main2 p{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    line-height: 50px;
+    bottom:25%;
+}
+.main3 h2{
+    text-align:center;
+    font-size: 45px;
+    font-family: 'Roboto Slab';
+    color:aliceblue;
+    background-color: #2E282A;
+}
+.main3 p{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    line-height: 50px;
+    bottom:25%;
+
+}
+.footer img{
+    justify-content:space-around;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    display: inline-block;
+}
+.footer{
+    display: flex;
+}
+.left{
+    float:left;
+}
+.center{
+    margin:auto;
+}
+.right{
+    float:right;
+}
+copyright p{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Slab';
+
+}
+.anchor{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: right;
+    font-family: 'Roboto Slab';
+    color:black;
+}
